@@ -14,8 +14,18 @@ body {
 .header {
   background-color: bisque;
   min-height: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
+.user-welcome {
+  display: flex;
+}
+
+.widgets {
+  display: flex;
+}
 .main-content {
   background-color: orange;
   min-height: 200px;
