@@ -9,10 +9,19 @@ body {
   background-color: aqua;
   min-height: 200px;
   grid-row: 1/3;
+  color: white;
 }
 
 .branding {
   color: white;
+}
+
+.sidebar>nav ul{
+  list-style-type: none;
+}
+
+.sidebar svg {
+  padding: 10px;
 }
 
 .header {
