@@ -11,6 +11,10 @@ body {
   grid-row: 1/3;
 }
 
+.branding {
+  color: white;
+}
+
 .header {
   background-color: bisque;
   min-height: 200px;
