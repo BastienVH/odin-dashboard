@@ -34,8 +34,11 @@ body {
   grid-template-columns: 3fr 1fr;
 }
 
-.card-container {
+.card-outer {
   grid-row: 1/3;
+}
+
+.card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: 1fr 1fr;
@@ -44,6 +47,5 @@ body {
 }
 
 .card {
-  min-height: 200px;
   background-color: white;
 }
