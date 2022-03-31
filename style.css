@@ -29,4 +29,21 @@ body {
 .main-content {
   background-color: orange;
   min-height: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
+}
+
+.card-container {
+  grid-row: 1/3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 2rem;
+}
+
+.card {
+  min-height: 200px;
+  background-color: white;
 }
