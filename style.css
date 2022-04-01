@@ -20,6 +20,10 @@ body {
   list-style-type: none;
 }
 
+.menu-icon {
+  vertical-align: middle;
+}
+
 .sidebar svg {
   padding: 10px;
 }
