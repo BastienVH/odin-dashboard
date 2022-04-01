@@ -20,7 +20,8 @@ body {
   list-style-type: none;
 }
 
-.menu-icon {
+.menu-icon,
+.brand-icon {
   vertical-align: middle;
 }
 
