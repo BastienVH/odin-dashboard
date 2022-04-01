@@ -14,14 +14,22 @@ body {
 
 .branding {
   color: white;
+  display: flex;
+  align-items: center;
+}
+.branding h1 {
+  font-size: 1.5rem;
 }
 
+.brand-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 .sidebar>nav ul{
   list-style-type: none;
 }
 
-.menu-icon,
-.brand-icon {
+.menu-icon {
   vertical-align: middle;
 }
 
