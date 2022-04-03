@@ -161,10 +161,17 @@ button:hover {
   border-radius: 8px;
   box-shadow: var(--shadow);
   border-left: 8px solid #ff6118;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card p {
   font-size: 0.95rem;
+}
+
+.card .icons {
+  text-align: end;
 }
 
 .announcements {
