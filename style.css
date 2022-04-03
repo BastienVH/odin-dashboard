@@ -95,6 +95,15 @@ button {
   border: none;
   padding: 8px 16px;
   border-radius: 16px;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.profilepic.small {
+  width: 2.5rem;
 
 }
 
