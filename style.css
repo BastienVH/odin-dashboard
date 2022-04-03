@@ -52,7 +52,7 @@ body {
 .header {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   padding: 20px;
 }
 
@@ -75,10 +75,23 @@ body {
   align-items: center;
 }
 
+.user-welcome > .profilepic {
+  margin-right: 20px;
+}
+
+.user-welcome p {
+  font-weight: bold;
+  margin: 4px;
+}
+
+.user-welcome p.large {
+  font-size: 1.4rem;
+}
+
 .widgets {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .buttons {
@@ -99,7 +112,7 @@ button {
 
 .profilepic {
   border-radius: 50%;
-  width: 5rem;
+  width: 60px;
 }
 
 .profilepic.small {
