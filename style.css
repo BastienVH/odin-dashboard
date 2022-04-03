@@ -11,7 +11,7 @@
 body {
   margin: 0;
   display: grid;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 150px;
   grid-template-columns: 1fr 4fr;
 }
 
@@ -50,9 +50,8 @@ body {
 }
 
 .header {
-  min-height: 200px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   grid-template-columns: 3fr 1fr;
 }
 
@@ -72,11 +71,21 @@ body {
 
 .user-welcome {
   display: flex;
+  align-items: center;
 }
 
 .widgets {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .main-content {
   background-color: var(--color-light);
   min-height: 200px;
