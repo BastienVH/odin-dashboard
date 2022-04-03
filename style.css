@@ -1,6 +1,7 @@
 * {
-  --shadow : 4px 4px 6px black;
+  --shadow : 4px 4px 6px var(--color-light-shadow);
   --color-light : #e2ecf1;
+  --color-light-shadow : hsl(200, 15%, 40%);
   --color-dark : #0284c7;
 }
 
