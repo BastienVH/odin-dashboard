@@ -127,9 +127,17 @@ button {
   border-left: 8px solid #ff6118;
 }
 
+.card p {
+  font-size: 0.85rem;
+}
+
 .announcements {
   background-color: white;
   border-radius: 8px;
   padding: 20px;
   box-shadow: var(--shadow);
+}
+
+.announcements p {
+  font-size: 0.85rem;
 }
