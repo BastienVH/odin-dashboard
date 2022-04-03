@@ -41,6 +41,13 @@ body {
 .sidebar>nav ul{
   list-style-type: none;
 }
+ul>li:hover,
+.card>h3,
+.announcements>h3,
+.profilepic,
+.notification {
+  cursor: pointer;
+}
 
 .menu-icon {
   vertical-align: middle;
