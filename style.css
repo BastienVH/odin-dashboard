@@ -182,11 +182,11 @@ button:hover {
 }
 progress {
   flex: 1;
-  margin-right: 20px;
+  margin-right: 16px;
 }
 
 .card .icons>svg {
-  margin: 0 4px;
+  margin: 0 8px;
   height: 1.4rem;
 }
 
