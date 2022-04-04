@@ -179,6 +179,11 @@ button:hover {
   text-align: end;
 }
 
+.card .icons>svg {
+  margin: 0 4px;
+  height: 1.4rem;
+}
+
 .announcements {
   background-color: white;
   border-radius: 8px;
