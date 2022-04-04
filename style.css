@@ -144,7 +144,7 @@ button:hover {
   display: grid;
   gap: 20px;
   padding: 20px;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 3fr 1fr;
 }
 
