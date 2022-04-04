@@ -176,7 +176,13 @@ button:hover {
 }
 
 .card .icons {
-  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+progress {
+  flex: 1;
+  margin-right: 20px;
 }
 
 .card .icons>svg {
