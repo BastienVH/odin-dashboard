@@ -69,13 +69,18 @@ ul>li:hover,
   align-items: center;
 }
 
+svg {
+  height: 1.8rem;
+}
+
 .header input[type="search"] {
   background-color: var(--color-light);
   border: none;
-  border-radius: 16px;
+  border-radius: 32px;
   flex: 1;
-  padding: 4px;
+  padding: 8px;
   margin: 4px;
+  font-size: 1rem;
 }
 
 .user-welcome {
