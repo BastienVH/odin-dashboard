@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&display=swap');
 
 * {
-  --shadow : 4px 4px 6px var(--color-light-shadow);
-  --color-light : #e2ecf1;
-  --color-light-shadow : hsl(200, 15%, 40%);
+  --shadow : 2px 2px 2px var(--color-light-shadow);
+  --color-light : #dbe7ec;
+  --color-light-shadow : hsl(0, 0%, 69%);
   --color-dark : #0284c7;
   font-family: 'Lato', sans-serif;
 }
